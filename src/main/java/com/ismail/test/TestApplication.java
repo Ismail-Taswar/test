@@ -18,6 +18,14 @@ public class TestApplication {
 		System.out.println(tst2) ;
 		float tst23 = 12.12232f ;
 		System.out.println(tst23) ;
+		char tst22 = 'a';
+		System.out.println(tst22) ;
+		boolean tst3 = true ;
+		System.out.println(tst3) ;
+		final int tst4 = 11111;
+		tst3=false ;
+		System.out.println(tst4) ;
+		//tst4=11;
 
 		//the next line is needed for web apps
 		SpringApplication.run(TestApplication.class, args);
