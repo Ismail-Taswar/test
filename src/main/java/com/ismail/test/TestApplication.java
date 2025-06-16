@@ -26,8 +26,29 @@ public class TestApplication {
 		tst3=false ;
 		System.out.println(tst4) ;
 		//tst4=11;
+        System.out.println(tst+tst4);
+        System.out.println(3+3) ;
+        //int x=6, y=1, z=12;
+       // System.out.print(x+y+z);
+        int x,y, z ;
+                x=y=y=5 ;
+                        z=6 ;
+                        x=z+z;
+                        z=x-z;
+                        x=x-z;
+        System.out.println(x) ;
+        float aaaa = 12.22f;
+		double qqqq=	12.111d;
+		long dqqq = 1233L;
+		double mydaaaaa = 12.123456789d;
+		int myiiii = (int) mydaaaaa;
+		System.out.println(myiiii);
+		double myDouble = 12.123456789d;
+		int myInt = (int) myDouble; // Manual casting: double to int
 
+		System.out.println(myDouble);   // Outputs 9.78
+		System.out.println(myInt);
 		//the next line is needed for web apps
-		SpringApplication.run(TestApplication.class, args);
+		//SpringApplication.run(TestApplication.class, args);
 	}
 }
