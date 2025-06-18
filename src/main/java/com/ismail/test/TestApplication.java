@@ -91,9 +91,48 @@ public class TestApplication {
                 break ;
             default:
                 System.out.println(0) ;
-		 */
-
+                int x =0 ;
+		while (1>x) {
+			x++;
+			System.out.println(x) ;
         }
+		int y = 0;
+		do {
+			System.out.println(y);
+			x++;
+		}
+		while (x< 5);
+
+		for (int i = 0; i < 5; i++) {
+			System.out.println(i);
+		}
+		for (int i = 1; i<5; i++){
+			System.out.println(i+"2") ;
+		}
+		String[] cars={"1","2","3"} ;
+		for (String i : cars) {
+			System.out.println(i) ;
+		}
+		cars[1]= "aa" ;
+		System.out.println(cars[1]) ;
+		System.out.println(cars.length);
+		int[][] myNumbers = {{1,2,3},{4,5,6,7}} ;
+		System.out.println(myNumbers[0][2]) ;
+		System.out.println(myNumbers[1][2]) ;
+		System.out.println(myNumbers.length) ;
+		System.out.println(myNumbers[1].length) ;
+		 */
+		class Main2 {
+			static void myMethod(String fname) {
+				System.out.println(fname + " Refsnes");
+			}
+
+			public static void main2(String[] args) {
+				myMethod("Liam");
+				myMethod("Jenny");
+				myMethod("Anja");
+			}
+		}
 		//the next line is needed for web apps
 		//SpringApplication.run(TestApplication.class, args);
 	}
